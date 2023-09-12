@@ -1,0 +1,131 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  font-family: 'Poppins', sans-serif;
+  color: #FFF;
+  /* font-family: 'Russo One', sans-serif; */
+}
+
+.first-screen {
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  padding-top: 72px;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 165px;
+}
+
+.navigation__item {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.navigation__item.active {
+  font-weight: 700;
+}
+
+.get-card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 121px;
+  height: 30px;
+  color: #110E0E;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.main-content {
+  margin-top: 200px;
+  width: 100%;
+  position: relative;
+}
+
+.wirless-gif {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.main-content h1 {
+  color: #FFF;
+  font-family: Russo One;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 76.8px */
+  position: relative;
+  z-index: 10;
+}
+
+.main-animation-screen {
+  width: 100%;
+}
+
+.main-animation-screen img {
+  width: 100%;
+  min-width: 100%;
+}
+
+.footer-screen {
+  height: 100vh;
+}
+
+.footer {
+  padding-top: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%; /* 22.4px */
+}
+
+.footer-btn {
+  border-radius: 59px;
+  background: #4328EA;
+  width: 180px;
+  height: 65px;
+  margin-left: 300px;
+}
